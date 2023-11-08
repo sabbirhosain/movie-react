@@ -1,0 +1,36 @@
+#slide__card {
+  width: 90% !important;
+}
+
+.silde__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: relative !important;
+}
+
+.card__image {
+  width: 100%;
+  position: relative !important;
+}
+
+.movie__category {
+  position: absolute !important;
+  left: 0px;
+  top: 0px;
+  z-index: 99;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  padding: 4px 8px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.view__btn{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
